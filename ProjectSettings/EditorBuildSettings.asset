@@ -4,7 +4,15 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 0
+    path: Assets/AR/EXP01 Anta Foz Do Rio Frio/Scenes/EXP01.unity
+    guid: 306aea3bd85666448a6683aab728d675
+  - enabled: 1
+    path: Assets/AR/EXP02 Cavalo Do Ocreza/Scenes/EXP02.unity
+    guid: 2c28035730d59f84b94e4d48098ec21e
   m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: eaf26587d8a9a4442be189fa7edbc689,
+      type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: d2f12aba099c9e94898168343f3ec23f,
       type: 2}
