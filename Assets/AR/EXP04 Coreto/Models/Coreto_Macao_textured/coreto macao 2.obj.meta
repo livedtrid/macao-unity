@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: aba8a63d31c3ed947a88a25b8e481333
+guid: 5a6a637899007c74489d652ea3bf51bb
 ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable: []
@@ -7,8 +7,8 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Layer_7Mat
-    second: {fileID: 2100000, guid: 342f760390a9bcb4fa01099b80686098, type: 2}
+      name: Layer_coretoMat
+    second: {fileID: 2100000, guid: 4e8715e26e315504f9d3371acc12890a, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
@@ -50,7 +50,7 @@ ModelImporter:
     importLights: 1
     fileIdsGeneration: 2
     swapUVChannels: 0
-    generateSecondaryUV: 1
+    generateSecondaryUV: 0
     useFileUnits: 1
     keepQuads: 0
     weldVertices: 1
