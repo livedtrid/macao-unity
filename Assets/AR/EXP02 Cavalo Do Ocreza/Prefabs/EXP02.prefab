@@ -29,7 +29,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 7355687101338330366}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!328 &4197126061043883129
 VideoPlayer:
@@ -45,9 +45,9 @@ VideoPlayer:
   m_TargetCamera: {fileID: 0}
   m_TargetTexture: {fileID: 0}
   m_TimeReference: 0
-  m_TargetMaterialRenderer: {fileID: 0}
+  m_TargetMaterialRenderer: {fileID: 7874084075502393389}
   m_TargetMaterialProperty: _MainTex
-  m_RenderMode: 4
+  m_RenderMode: 3
   m_AspectRatio: 2
   m_DataSource: 0
   m_PlaybackSpeed: 1
@@ -58,9 +58,9 @@ VideoPlayer:
   m_EnabledAudioTracks: 
   m_DirectAudioMutes: 
   m_ControlledAudioTrackCount: 0
-  m_PlayOnAwake: 0
+  m_PlayOnAwake: 1
   m_SkipOnDrop: 0
-  m_Looping: 0
+  m_Looping: 1
   m_WaitForFirstFrame: 0
   m_FrameReadyEventEnabled: 0
 --- !u!1 &7355687101312865710
@@ -124,7 +124,6 @@ Transform:
   - {fileID: 7355687101916829542}
   - {fileID: 7355687101312865681}
   - {fileID: 7874084075502393387}
-  - {fileID: 7874084073756448418}
   - {fileID: 9141471447738445305}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -278,174 +277,6 @@ Light:
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
---- !u!1 &7874084073756448428
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7874084073756448418}
-  - component: {fileID: 7874084073756448429}
-  m_Layer: 0
-  m_Name: MediaPlayer
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &7874084073756448418
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7874084073756448428}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.053471234, y: 0.053471234, z: 0.053471234}
-  m_Children: []
-  m_Father: {fileID: 7355687101338330366}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7874084073756448429
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7874084073756448428}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 638c870cac4da414fba921606d504407, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_VideoLocation: 3
-  m_VideoPath: AR/EXP02 Cavalo Do Ocreza/Videos/A0042.mp4
-  m_AutoOpen: 1
-  m_AutoStart: 1
-  m_Loop: 1
-  m_Volume: 1
-  m_Balance: 0
-  m_Muted: 0
-  m_PlaybackRate: 1
-  m_Resample: 0
-  m_ResampleMode: 0
-  m_ResampleBufferSize: 5
-  m_Persistent: 0
-  m_videoMapping: 0
-  m_StereoPacking: 0
-  m_AlphaPacking: 1
-  m_DisplayDebugStereoColorTint: 0
-  m_FilterMode: 1
-  m_WrapMode: 1
-  m_AnisoLevel: 0
-  m_LoadSubtitles: 0
-  m_SubtitleLocation: 2
-  m_SubtitlePath: 
-  m_AudioHeadTransform: {fileID: 0}
-  m_AudioFocusEnabled: 0
-  m_AudioFocusTransform: {fileID: 0}
-  m_AudioFocusWidthDegrees: 90
-  m_AudioFocusOffLevelDB: 0
-  m_events:
-    m_PersistentCalls:
-      m_Calls: []
-  m_eventMask: -1
-  m_forceFileFormat: 0
-  _pauseMediaOnAppPause: 1
-  _playMediaOnAppUnpause: 1
-  m_sourceSampleRate: 0
-  m_sourceChannels: 0
-  m_manuallySetAudioSourceProperties: 0
-  _optionsWindows:
-    overridePath: 0
-    pathLocation: 2
-    path: 
-    videoApi: 0
-    useHardwareDecoding: 1
-    useUnityAudio: 0
-    forceAudioResample: 1
-    useTextureMips: 0
-    hintAlphaChannel: 0
-    forceAudioOutputDeviceName: 
-    preferredFilters: []
-    enableAudio360: 0
-    audio360ChannelMode: 0
-  _optionsMacOSX:
-    overridePath: 0
-    pathLocation: 2
-    path: 
-    audioMode: 0
-    httpHeaders: []
-    httpHeaderJson: 
-    keyServerURLOverride: 
-    keyServerAuthToken: 
-    base64EncodedKeyBlob: 
-  _optionsIOS:
-    overridePath: 0
-    pathLocation: 2
-    path: 
-    audioMode: 0
-    httpHeaders: []
-    httpHeaderJson: 
-    keyServerURLOverride: 
-    keyServerAuthToken: 
-    base64EncodedKeyBlob: 
-    useYpCbCr420Textures: 1
-    resumePlaybackOnAudioSessionRouteChange: 0
-  _optionsTVOS:
-    overridePath: 0
-    pathLocation: 2
-    path: 
-    audioMode: 0
-    httpHeaders: []
-    httpHeaderJson: 
-    keyServerURLOverride: 
-    keyServerAuthToken: 
-    base64EncodedKeyBlob: 
-    useYpCbCr420Textures: 1
-    resumePlaybackOnAudioSessionRouteChange: 0
-  _optionsAndroid:
-    overridePath: 0
-    pathLocation: 2
-    path: 
-    videoApi: 1
-    useFastOesPath: 0
-    showPosterFrame: 0
-    enableAudio360: 0
-    audio360ChannelMode: 0
-    preferSoftwareDecoder: 0
-    httpHeaders: []
-    httpHeaderJson: 
-    fileOffset: 0
-  _optionsWindowsPhone:
-    overridePath: 0
-    pathLocation: 2
-    path: 
-    useHardwareDecoding: 1
-    useUnityAudio: 0
-    forceAudioResample: 1
-    useTextureMips: 0
-  _optionsWindowsUWP:
-    overridePath: 0
-    pathLocation: 2
-    path: 
-    useHardwareDecoding: 1
-    useUnityAudio: 0
-    forceAudioResample: 1
-    useTextureMips: 0
-  _optionsWebGL:
-    overridePath: 0
-    pathLocation: 2
-    path: 
-    externalLibrary: 0
-    useTextureMips: 0
-  _optionsPS4:
-    overridePath: 0
-    pathLocation: 2
-    path: 
 --- !u!1 &7874084075502393386
 GameObject:
   m_ObjectHideFlags: 0
@@ -458,7 +289,6 @@ GameObject:
   - component: {fileID: 7874084075502393390}
   - component: {fileID: 7874084075502393389}
   - component: {fileID: 7874084075502393388}
-  - component: {fileID: 7874084075502393391}
   m_Layer: 0
   m_Name: VideoPlane
   m_TagString: Untagged
@@ -474,8 +304,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7874084075502393386}
   m_LocalRotation: {x: -0, y: 0.63384753, z: -0, w: 0.773458}
-  m_LocalPosition: {x: 0.025, y: 0.208, z: -0.061}
-  m_LocalScale: {x: 1.378048, y: 0.775152, z: 1.0766}
+  m_LocalPosition: {x: 0.025, y: -0.183, z: -0.061}
+  m_LocalScale: {x: 1.378048, y: 1.550304, z: 1.0766}
   m_Children: []
   m_Father: {fileID: 7355687101338330366}
   m_RootOrder: 2
@@ -506,7 +336,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 14863672a82a3d84ab9c47d23f39f554, type: 2}
+  - {fileID: 2100000, guid: c157e9c725eeea3469066f4899376f1d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -541,24 +371,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &7874084075502393391
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7874084075502393386}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f6d1977a52888584496b1acc7e998011, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _media: {fileID: 7874084073756448429}
-  _defaultTexture: {fileID: 0}
-  _mesh: {fileID: 7874084075502393389}
-  _texturePropertyName: _MainTex
-  _offset: {x: 0, y: 0}
-  _scale: {x: 1, y: 1}
 --- !u!1001 &2017563824789983854
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -5,7 +5,7 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/AR/Scenes/EXP01_MARKERLESS.unity
     guid: 4011011ec6f542847baddb82a349a765
   - enabled: 0
@@ -20,6 +20,9 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/AR/Scenes/EXP04_ImageTarget.unity
     guid: 647277308383c374f847ffb17985dc9f
+  - enabled: 1
+    path: Assets/AR/Scenes/EXP05_MARKERLESS.unity
+    guid: 07a648317322f6b4abb06fd5650fb563
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: eaf26587d8a9a4442be189fa7edbc689,
       type: 2}
