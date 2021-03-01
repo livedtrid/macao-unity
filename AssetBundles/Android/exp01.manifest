@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 3409804735
+CRC: 3471237222
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 7ece580e509a1bac828ae520d978c1f0
+    Hash: 0abf67ebb40743d38fe2fb2fc15b80d6
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 86d9bb3fd941e72144d04cb45ea78418
+    Hash: 67d1bda1aa0684573001510653fe7253
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -60,8 +60,6 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: 59f8146938fff824cb5fd77236b75775, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 30649d3a9faa99c48a7b1166b86bf2a0, type: 3}
-- Class: 114
   Script: {fileID: 11500000, guid: cfaf5bea4c10a8141a92abc840879a12, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
@@ -74,10 +72,6 @@ ClassTypes:
 - Class: 115
   Script: {instanceID: 0}
 - Class: 128
-  Script: {instanceID: 0}
-- Class: 136
-  Script: {instanceID: 0}
-- Class: 205
   Script: {instanceID: 0}
 - Class: 213
   Script: {instanceID: 0}
@@ -94,5 +88,5 @@ ClassTypes:
 - Class: 329
   Script: {instanceID: 0}
 Assets:
-- Assets/AR/Bundles/EXP01_MARKERLESS.prefab
+- Assets/AR/Bundles/Markerless/EXP01_MARKERLESS.prefab
 Dependencies: []

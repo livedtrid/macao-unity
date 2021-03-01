@@ -10,6 +10,7 @@
 /[Ll]ogs/
 /[Mm]emoryCaptures/
 /Assets/NatureManufacture Assets/
+/[Aa]ssetBundles/
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
 
@@ -59,3 +60,4 @@ sysinfo.txt
 crashlytics-build.properties
 
 Assets/NatureManufacture Assets.meta
+
