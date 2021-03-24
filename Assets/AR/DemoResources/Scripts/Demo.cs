@@ -1,13 +1,21 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
-
-public class Demo : MonoBehaviour
+namespace AR.DemoResources.Scripts
 {
-    public void LoadScene(int index)
+    public class Demo : MonoBehaviour
     {
-        SceneManager.LoadScene(index);
+        public void LoadScene(int index)
+        {
+            SceneManager.LoadScene(index);
+        }
+
+        private void Update()
+        {
+            if (Input.GetButtonDown("Cancel"))
+            {
+                SceneManager.LoadScene("Menu");
+            }
+        }
     }
 }

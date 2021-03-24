@@ -724,6 +724,11 @@ PrefabInstance:
       propertyPath: WorldRootController
       value: 
       objectReference: {fileID: 772157263}
+    - target: {fileID: 114909925963409972, guid: c36c2bcaeaeaea44cb8d5eeb6560c5bb,
+        type: 3}
+      propertyPath: cameraPreference
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c36c2bcaeaeaea44cb8d5eeb6560c5bb, type: 3}
 --- !u!114 &387936111 stripped

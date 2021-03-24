@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 1169671984
+CRC: 1082215745
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 39c1364d09952885faafa708a5c20d85
+    Hash: 5be90fb273d7adbb2f1036759dc5d021
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 0652f6c7881543986e27cf6bd4bd7498
+    Hash: 06c3e88d5189aca3ad6b2704cec883e8
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -38,6 +38,8 @@ ClassTypes:
 - Class: 108
   Script: {instanceID: 0}
 - Class: 114
+  Script: {fileID: 11500000, guid: 8a8695521f0d02e499659fee002a26c2, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
@@ -50,15 +52,17 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: e61c430477d9c324db3b8fbf8ea02a63, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: de6fd83419af56e47919f0785a99b429, type: 3}
-- Class: 114
   Script: {fileID: 11500000, guid: 58121554686e6764abf562e846ef8088, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 845309652a1ed494d89639fa567f4a29, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 9f3bd5189df208f4ead26ed7eabd92cf, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 59f8146938fff824cb5fd77236b75775, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: bf3d35e95b7622c438ae66af08f12d89, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: cfaf5bea4c10a8141a92abc840879a12, type: 3}
 - Class: 114
@@ -67,6 +71,8 @@ ClassTypes:
   Script: {fileID: 11500000, guid: 827d788c59357834d9adc4815a9a065c, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: dca8017ddc105e5488bf7ba9b4a177cd, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 9085046f02f69544eb97fd06b6048fe2, type: 3}
 - Class: 115
@@ -90,5 +96,5 @@ ClassTypes:
 - Class: 329
   Script: {instanceID: 0}
 Assets:
-- Assets/AR/Bundles/Markerless/EXP02_MARKERLESS.prefab
+- Assets/AR/Bundles/Markerless/EXP02_MARKER.prefab
 Dependencies: []
