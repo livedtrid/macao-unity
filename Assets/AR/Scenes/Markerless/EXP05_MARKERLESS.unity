@@ -624,6 +624,31 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4708110142510332057, guid: 41ffac266f3bfe64f9737d475a6837e0,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[5].m_MethodName
+      value: BroadcastMessage
+      objectReference: {fileID: 0}
+    - target: {fileID: 4708110142510332057, guid: 41ffac266f3bfe64f9737d475a6837e0,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[5].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4708110142510332057, guid: 41ffac266f3bfe64f9737d475a6837e0,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[5].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4708110142510332057, guid: 41ffac266f3bfe64f9737d475a6837e0,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[5].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4708110142510332057, guid: 41ffac266f3bfe64f9737d475a6837e0,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[5].m_Arguments.m_StringArgument
+      value: Translate,Vector3.up
+      objectReference: {fileID: 0}
     - target: {fileID: 5645371888900023130, guid: 41ffac266f3bfe64f9737d475a6837e0,
         type: 3}
       propertyPath: m_AnchorMin.y
